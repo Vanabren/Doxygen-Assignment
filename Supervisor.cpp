@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.cpp
+ * @author Vance Brenderabrandis
+ * @date 2022-11-15
+ * @brief Implementation of the Supervisor derived class
+ * 
+ * The implementation of the Supervisor derived class
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 
@@ -18,6 +27,6 @@ void Supervisor::print() {
 
 double Supervisor::calculatePay() {
   double val = Employee::calculatePay();
-  val = val + val * (.01 * numSupervised);
+  val = val + val * (.01 * numSupervised); 
   return val;
 }
