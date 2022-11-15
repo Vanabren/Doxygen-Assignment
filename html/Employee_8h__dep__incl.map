@@ -1,0 +1,8 @@
+<map id="Employee.h" name="Employee.h">
+<area shape="rect" id="node2" href="$Employee_8cpp.html" title="Holds the implementation of the Employee superclass. " alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Tests implementation of the Employee superclass and the Supervisor and Officer derived classes..." alt="" coords="230,155,305,181"/>
+<area shape="rect" id="node4" href="$Supervisor_8h.html" title="Holds the definition of the Supervisor derived class. " alt="" coords="135,80,229,107"/>
+<area shape="rect" id="node6" href="$Officer_8h.html" title="Header file of Officer derived class. " alt="" coords="305,80,377,107"/>
+<area shape="rect" id="node5" href="$Supervisor_8cpp.html" title="Implementation of the Supervisor derived class. " alt="" coords="97,155,206,181"/>
+<area shape="rect" id="node7" href="$Officer_8cpp.html" title="Implementation of the Officer subclass. " alt="" coords="329,155,416,181"/>
+</map>

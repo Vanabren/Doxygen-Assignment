@@ -1,0 +1,152 @@
+\hypertarget{classEmployee}{}\section{Employee Class Reference}
+\label{classEmployee}\index{Employee@{Employee}}
+
+
+Holds the main methods and members of the \hyperlink{classEmployee}{Employee} superclass.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Doxygen-\/\+Assignment/\+Employee.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Employee\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classEmployee__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classEmployee_a79556ad700627dba88049f487a34a762}{print} ()
+\item 
+virtual double \hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{calculate\+Pay} ()
+\item 
+void \hyperlink{classEmployee_a67c345031cf63f515fb09dc675dee5f3}{anniversary} ()
+\item 
+\hyperlink{classEmployee_a003c7bd08c40924e381eb0750cbb906f}{Employee} ()
+\item 
+\hyperlink{classEmployee_ad0c935ef9a290a82dcf7865172c90148}{Employee} (int ID, int years, double hourly\+Rate, float hours\+Worked)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEmployee_ac31134abb9b4004fc015e51ef579b069}\label{classEmployee_ac31134abb9b4004fc015e51ef579b069}} 
+double {\bfseries hourly\+Rate}
+\item 
+\mbox{\Hypertarget{classEmployee_afde35c73d02eb1cfe89e23a80998b42e}\label{classEmployee_afde35c73d02eb1cfe89e23a80998b42e}} 
+float {\bfseries hours\+Worked}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEmployee_a832bbae4ee8a704b917f82c4d497bbac}\label{classEmployee_a832bbae4ee8a704b917f82c4d497bbac}} 
+int {\bfseries ID}
+\item 
+\mbox{\Hypertarget{classEmployee_a3e4862d9dfc73becb459a562fa2e25f5}\label{classEmployee_a3e4862d9dfc73becb459a562fa2e25f5}} 
+int {\bfseries years}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Holds the main methods and members of the \hyperlink{classEmployee}{Employee} superclass. 
+
+The superclass from which the other subclasses within the file are derived from. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEmployee_a003c7bd08c40924e381eb0750cbb906f}\label{classEmployee_a003c7bd08c40924e381eb0750cbb906f}} 
+\index{Employee@{Employee}!Employee@{Employee}}
+\index{Employee@{Employee}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{Employee()}{Employee()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Employee\+::\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor for the \hyperlink{classEmployee}{Employee} superclass -\/ initializes everything to -\/1
+
+\begin{DoxyPostcond}{Postcondition}
+New \hyperlink{classEmployee}{Employee} object is created with values initialized to -\/1 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classEmployee_ad0c935ef9a290a82dcf7865172c90148}\label{classEmployee_ad0c935ef9a290a82dcf7865172c90148}} 
+\index{Employee@{Employee}!Employee@{Employee}}
+\index{Employee@{Employee}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{Employee()}{Employee()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Employee\+::\+Employee (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked }\end{DoxyParamCaption})}
+
+Parameterized constructor for the \hyperlink{classEmployee}{Employee} superclass -\/ Initializes to user-\/values
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & ID ID of employee \\
+\hline
+{\em int} & years Years the \hyperlink{classEmployee}{Employee} has worked \\
+\hline
+{\em double} & hourly\+Rate Hourly pay for the \hyperlink{classEmployee}{Employee} \\
+\hline
+{\em float} & hours\+Worked Hours the \hyperlink{classEmployee}{Employee} has worked \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classEmployee_a67c345031cf63f515fb09dc675dee5f3}\label{classEmployee_a67c345031cf63f515fb09dc675dee5f3}} 
+\index{Employee@{Employee}!anniversary@{anniversary}}
+\index{anniversary@{anniversary}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{anniversary()}{anniversary()}}
+{\footnotesize\ttfamily void Employee\+::anniversary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Increments a pay raise (.2\%) and increments a year worked before printing a congratulatory message
+
+\begin{DoxyReturn}{Returns}
+Nothing -\/ Prints out congratulatory message 
+\end{DoxyReturn}
+
+
+Referenced by run\+Employee\+Tests().
+
+\mbox{\Hypertarget{classEmployee_a01c2c44e15434237db28832f6972e960}\label{classEmployee_a01c2c44e15434237db28832f6972e960}} 
+\index{Employee@{Employee}!calculate\+Pay@{calculate\+Pay}}
+\index{calculate\+Pay@{calculate\+Pay}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{calculate\+Pay()}{calculatePay()}}
+{\footnotesize\ttfamily double Employee\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Calculates total pay from hours worked and hourly rate
+
+\begin{DoxyReturn}{Returns}
+virtual Returns total pay of an employee from the hourly rate and hours worked 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classSupervisor_aa37daa89523c08b84ae8141299e036f8}{Supervisor}, and \hyperlink{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}{Officer}.
+
+
+
+Referenced by Supervisor\+::calculate\+Pay(), and run\+Employee\+Tests().
+
+\mbox{\Hypertarget{classEmployee_a79556ad700627dba88049f487a34a762}\label{classEmployee_a79556ad700627dba88049f487a34a762}} 
+\index{Employee@{Employee}!print@{print}}
+\index{print@{print}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Employee\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Virtual printing function for the base info of an employee \+: ID, years worked, hourly rate, hours worked
+
+\begin{DoxyReturn}{Returns}
+Nothing -\/ prints info on employees 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}{Supervisor}, and \hyperlink{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}{Officer}.
+
+
+
+Referenced by Officer\+::print(), Supervisor\+::print(), and run\+Employee\+Tests().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Employee_8h}{Employee.\+h}\item 
+\hyperlink{Employee_8cpp}{Employee.\+cpp}\end{DoxyCompactItemize}

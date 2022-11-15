@@ -1,0 +1,5 @@
+<map id="main.cpp" name="main.cpp">
+<area shape="rect" id="node3" href="$Employee_8h.html" title="The header file for the Employee class which other subclasses are derived from. " alt="" coords="155,155,245,181"/>
+<area shape="rect" id="node4" href="$Supervisor_8h.html" title="Holds the definition of the Supervisor derived class. " alt="" coords="153,80,247,107"/>
+<area shape="rect" id="node5" href="$Officer_8h.html" title="Header file of Officer derived class. " alt="" coords="272,80,344,107"/>
+</map>
