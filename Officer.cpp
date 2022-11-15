@@ -1,3 +1,12 @@
+/**
+ * @file Officer.cpp
+ * @author Vance Brenderabrandis
+ * @date 2022-11-15
+ * @brief Implementation of the Officer subclass
+ * 
+ * Implementation of the methods/members of the Officer subclass
+ */
+
 #include "Officer.h"
 #include <iostream>
 

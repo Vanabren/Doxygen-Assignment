@@ -1,3 +1,12 @@
+/**
+ * @file Employee.cpp
+ * @author Vance Brenderabrandis
+ * @date 2022-11-15
+ * @brief Holds the implementation of the Employee superclass
+ * 
+ * Implements methods/members of the Employee superclass
+ */
+
 #include "Employee.h"
 #include <iostream>
 
