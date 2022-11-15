@@ -63,9 +63,68 @@ $(function() {
 <div class="title">Doxygen Testing </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h3>Purpose:</h3>
+<div class="textblock"><h1>Business Corp <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> Management System</h1>
+<p>Name: Vance Brender-A-Brandis Date: 11.15.2022</p>
+<h2>Required Files</h2>
 <ul>
-<li>Testing Doxygen and its documentation abilities. </li>
+<li><a class="el" href="Employee_8h.html" title="The header file for the Employee class which other subclasses are derived from. ">Employee.h</a><ul>
+<li>The headerfile for the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> superclass, which all other files require to work.</li>
+</ul>
+</li>
+<li><a class="el" href="Employee_8cpp.html" title="Holds the implementation of the Employee superclass. ">Employee.cpp</a><ul>
+<li>The implementation of the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> superclass, which all other files require to work.</li>
+</ul>
+</li>
+<li><a class="el" href="Supervisor_8h.html" title="Holds the definition of the Supervisor derived class. ">Supervisor.h</a><ul>
+<li>The headerfile for the <a class="el" href="classSupervisor.html" title="Supervisor class definition. ">Supervisor</a> child class - It is derived from the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> superclass.</li>
+</ul>
+</li>
+<li><a class="el" href="Supervisor_8cpp.html" title="Implementation of the Supervisor derived class. ">Supervisor.cpp</a><ul>
+<li>The implmentation of the <a class="el" href="classSupervisor.html" title="Supervisor class definition. ">Supervisor</a> child class.</li>
+</ul>
+</li>
+<li><a class="el" href="Officer_8h.html" title="Header file of Officer derived class. ">Officer.h</a><ul>
+<li>The headerfile for the <a class="el" href="classOfficer.html" title="The Officer subclass, derived from the Employee superclass. ">Officer</a> child class - It is derived from the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> superclass.</li>
+</ul>
+</li>
+<li><a class="el" href="Officer_8cpp.html" title="Implementation of the Officer subclass. ">Officer.cpp</a><ul>
+<li>The implementation of the <a class="el" href="classOfficer.html" title="The Officer subclass, derived from the Employee superclass. ">Officer</a> child class.</li>
+</ul>
+</li>
+<li>HR.h<ul>
+<li>The headerfile for the HR (human relations) child class. It is derived from the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> superclass.</li>
+</ul>
+</li>
+<li>HR.cpp<ul>
+<li>The implementation of the HR child class.</li>
+</ul>
+</li>
+<li><a class="el" href="main_8cpp.html" title="Tests implementation of the Employee superclass and the Supervisor and Officer derived classes...">main.cpp</a><ul>
+<li>The main program file, which uses all files listed above to perform a series of tests to ensure the class files and implementation works correctly.</li>
+</ul>
+</li>
+</ul>
+<h2>Notes</h2>
+<p>Any extra notes, such as:</p><ul>
+<li>What is working?<ul>
+<li>All of the <em>class files</em>, <em><a class="el" href="main_8cpp.html" title="Tests implementation of the Employee superclass and the Supervisor and Officer derived classes...">main.cpp</a></em>, and <em>Makefile</em> included with the program work as intended.</li>
+</ul>
+</li>
+<li>What are the limitations of your program?<ul>
+<li>As all of the tests have been hardcoded into the program, a user cannot insert their own <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> ID, hourly rates, etc. etc.</li>
+<li>Essentially, there is no user functionality within the program.</li>
+</ul>
+</li>
+<li>What design decisions did you make?<ul>
+<li>As dictated by the assignment, I created a superclass in the form of the <a class="el" href="classEmployee.html" title="Holds the main methods and members of the Employee superclass. ">Employee</a> and a few derived classes in the form of the <a class="el" href="classSupervisor.html" title="Supervisor class definition. ">Supervisor</a>, <a class="el" href="classOfficer.html" title="The Officer subclass, derived from the Employee superclass. ">Officer</a>, and HR classes.</li>
+<li>I also included a couple hardcoded tests for the extra credit HR subclass following the format of the provided tests.</li>
+<li>Besides the requirements of the assignment, I created another child class intended to display the attributes of Human Resources (from the viewpoint of someone who has never worked in a business).</li>
+</ul>
+</li>
+<li>Is there anything you wish to draw our attention to? (cool trick, extra credit, strange logic, problem area, etc)<ul>
+<li>Extra credit in the form of the HR derived class and its implementation within <a class="el" href="main_8cpp.html" title="Tests implementation of the Employee superclass and the Supervisor and Officer derived classes...">main.cpp</a> and the HR.h/.cpp has been attempted. </li>
+</ul>
+</li>
 </ul>
 </div></div><!-- contents -->
 <!-- start footer part -->

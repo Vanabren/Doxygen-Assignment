@@ -1,6 +1,70 @@
-\subsubsection*{Purpose\+:}
+\section*{Business Corp \hyperlink{classEmployee}{Employee} Management System}
+
+Name\+: Vance Brender-\/\+A-\/\+Brandis Date\+: 11.\+15.\+2022
+
+\subsection*{Required Files}
 
 
 \begin{DoxyItemize}
-\item Testing Doxygen and its documentation abilities. 
+\item \hyperlink{Employee_8h}{Employee.\+h}
+\begin{DoxyItemize}
+\item The headerfile for the \hyperlink{classEmployee}{Employee} superclass, which all other files require to work.
+\end{DoxyItemize}
+\item \hyperlink{Employee_8cpp}{Employee.\+cpp}
+\begin{DoxyItemize}
+\item The implementation of the \hyperlink{classEmployee}{Employee} superclass, which all other files require to work.
+\end{DoxyItemize}
+\item \hyperlink{Supervisor_8h}{Supervisor.\+h}
+\begin{DoxyItemize}
+\item The headerfile for the \hyperlink{classSupervisor}{Supervisor} child class -\/ It is derived from the \hyperlink{classEmployee}{Employee} superclass.
+\end{DoxyItemize}
+\item \hyperlink{Supervisor_8cpp}{Supervisor.\+cpp}
+\begin{DoxyItemize}
+\item The implmentation of the \hyperlink{classSupervisor}{Supervisor} child class.
+\end{DoxyItemize}
+\item \hyperlink{Officer_8h}{Officer.\+h}
+\begin{DoxyItemize}
+\item The headerfile for the \hyperlink{classOfficer}{Officer} child class -\/ It is derived from the \hyperlink{classEmployee}{Employee} superclass.
+\end{DoxyItemize}
+\item \hyperlink{Officer_8cpp}{Officer.\+cpp}
+\begin{DoxyItemize}
+\item The implementation of the \hyperlink{classOfficer}{Officer} child class.
+\end{DoxyItemize}
+\item H\+R.\+h
+\begin{DoxyItemize}
+\item The headerfile for the HR (human relations) child class. It is derived from the \hyperlink{classEmployee}{Employee} superclass.
+\end{DoxyItemize}
+\item H\+R.\+cpp
+\begin{DoxyItemize}
+\item The implementation of the HR child class.
+\end{DoxyItemize}
+\item \hyperlink{main_8cpp}{main.\+cpp}
+\begin{DoxyItemize}
+\item The main program file, which uses all files listed above to perform a series of tests to ensure the class files and implementation works correctly.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\subsection*{Notes}
+
+Any extra notes, such as\+:
+\begin{DoxyItemize}
+\item What is working?
+\begin{DoxyItemize}
+\item All of the {\itshape class files}, {\itshape \hyperlink{main_8cpp}{main.\+cpp}}, and {\itshape Makefile} included with the program work as intended.
+\end{DoxyItemize}
+\item What are the limitations of your program?
+\begin{DoxyItemize}
+\item As all of the tests have been hardcoded into the program, a user cannot insert their own \hyperlink{classEmployee}{Employee} ID, hourly rates, etc. etc.
+\item Essentially, there is no user functionality within the program.
+\end{DoxyItemize}
+\item What design decisions did you make?
+\begin{DoxyItemize}
+\item As dictated by the assignment, I created a superclass in the form of the \hyperlink{classEmployee}{Employee} and a few derived classes in the form of the \hyperlink{classSupervisor}{Supervisor}, \hyperlink{classOfficer}{Officer}, and HR classes.
+\item I also included a couple hardcoded tests for the extra credit HR subclass following the format of the provided tests.
+\item Besides the requirements of the assignment, I created another child class intended to display the attributes of Human Resources (from the viewpoint of someone who has never worked in a business).
+\end{DoxyItemize}
+\item Is there anything you wish to draw our attention to? (cool trick, extra credit, strange logic, problem area, etc)
+\begin{DoxyItemize}
+\item Extra credit in the form of the HR derived class and its implementation within \hyperlink{main_8cpp}{main.\+cpp} and the H\+R.\+h/.cpp has been attempted. 
+\end{DoxyItemize}
 \end{DoxyItemize}
