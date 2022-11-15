@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author Vance Brenderabrandis
+ * @date 2022-11-15
+ * @brief Tests implementation of the Employee superclass and the Supervisor and Officer derived classes
+ * 
+ * The program uses a test function to test the implementation of the Employee superclass and Officer derived classes and the methods inside of them.
+ */
+
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +15,14 @@
 
 using namespace std;
 
+
+/**
+ * Runs various hardcoded tests for the Employee class and its children
+ *
+ * @param Employee & e Reference to Employee object
+ * @return Nothing - runs various tests
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {
